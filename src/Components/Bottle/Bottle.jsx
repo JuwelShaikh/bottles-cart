@@ -1,8 +1,8 @@
 
-const Bottle = () => {
+const Bottle = ({ botlle }) => {
     return (
         <div>
-            <h1>Name:</h1>
+            <h4>Name:</h4>
         </div>
     );
 };
