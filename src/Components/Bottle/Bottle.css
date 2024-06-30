@@ -5,6 +5,11 @@
     padding: 10px;
 }
 
+.bottle-container:hover{
+    border: 2px solid rgb(241, 255, 47);
+    
+}
+
 .bottle-container img{
     width: 200px;
 }
