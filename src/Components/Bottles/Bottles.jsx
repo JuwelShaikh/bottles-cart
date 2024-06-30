@@ -15,7 +15,7 @@ const Bottles = () => {
         <div>
             <h3>Bottles available: {bottles.length}</h3>
             {
-                bottles.map(botlle => <Bottle key={botlle.id} botlle={botlle}/>)
+                bottles.map(bottle => <Bottle key={bottle.id} bottle={bottle}/>)
             }
         </div>
     );
