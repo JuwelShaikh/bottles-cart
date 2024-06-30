@@ -1,0 +1,10 @@
+.bottle-container{
+    margin: 5px;
+    border: 2px solid greenyellow;
+    background-color: rgb(229, 227, 227);
+    padding: 10px;
+}
+
+.bottle-container img{
+    width: 200px;
+}
