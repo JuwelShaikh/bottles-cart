@@ -1,3 +1,4 @@
+import './Bottle.css';
 
 const Bottle = ({ bottle }) => {
     const { name, price, img, seller } = bottle;
