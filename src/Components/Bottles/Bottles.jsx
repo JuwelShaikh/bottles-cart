@@ -13,6 +13,7 @@ const Bottles = () => {
     }, [])
 
     const handleBottleCart = bottle => {
+        console.log(bottle)
         console.log('bottle added')
     }
 
