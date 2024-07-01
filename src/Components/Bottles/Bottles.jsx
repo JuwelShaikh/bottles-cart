@@ -12,12 +12,19 @@ const Bottles = () => {
             .then(data => setBottles(data))
     }, [])
 
+    const handleBottleCart = bottle => {
+        console.log('bottle added')
+    }
+
     return (
         <div>
             <h3>Bottles available: {bottles.length}</h3>
             <div className="bottles-container">
                 {
-                    bottles.map(bottle => <Bottle key={bottle.id} bottle={bottle} />)
+                    bottles.map(bottle => <Bottle
+                        key={bottle.id}
+                        bottle={bottle}
+                        handleBottleCart={handleBottleCart} />)
                 }
             </div>
         </div>
